@@ -1,6 +1,10 @@
-<?php
-include("navbar.html");
-?>
+<script>
+fetch("navbar.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("navbar-placeholder").innerHTML = data;
+  });
+</script>
 <!DOCTYPE html>
 <html lang="fr">
 
