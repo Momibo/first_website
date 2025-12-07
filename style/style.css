@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin-top: 180;
+    background-color: rgba(99, 21, 21, 0.697);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    color: bisque;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: bisque;
+    /*peru*/
+}
+
+p {
+    margin: 10px;
+    color: antiquewhite;
+}
+
+/* */
+
+.sheets {
+    /*margin: 0 400px 0 400px;*/
+    margin: 0 auto;
+    width: 70%;
+    padding: 15px;
+    border: 10px;
+    background-color: rgb(255, 217, 171);
+    border-color: burlywood;
+    border-style: solid;
+    border-top-right-radius: 20px;
+    text-align: center;
+    /*display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    /*flex-direction: column;
+    /*padding-block: auto;*/
+}
+
+.sheets h3{
+    color: brown;
+}
+
+.sheets td {
+    width: 50%;
+    text-align: center;
+}
+
+.sheets table {
+    margin: 0 auto;
+}
+
+.ajouter_voc_btn {
+    width: 60;
+    height: 60;
+    margin-left: 20px;
+    border-width: 10;
+    border-radius: 50%;
+    border-color: black;
+    font-size: 35;
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.ajouter_voc_input {
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.ajouter_voc_input td input {
+    font-size: 1.2em;
+    background-color: blanchedalmond;
+}
+
+.voc {
+    margin: 0 auto;
+    width: 80%;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+.routine {
+    margin: 0 5% 0 5%;
+    padding: 50 0 50 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.afaire {
+    padding: 30;
+    width: 40%;
+    margin-left: 5%;
+    display: block;
+    background-color: rgb(144, 0, 0);
+    border-style: dashed;
+    border-color: #000;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.fait {
+    padding: 30;
+    display: block;
+    width: 40%;
+    margin-right: 5%;
+    background-color: green;
+    border-style: dashed;
+    border-color: #000;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.afaire h3, .fait h3, .routine p{
+    color: #000;
+    font-size: 1.5em;
+}
+
+.afaire input{
+    background-color: green;
+    width: 4em;
+    height: 1.8em;
+    margin-left: 20px;
+}
+
+.fait input{
+    background-color: rgb(144, 0, 0);
+    width: 4em;
+    height: 1.8em;
+    margin-right: 20px;
+}
+
+.calendar {
+    margin: 0 5% 0 5%;
+    padding: 50 0 50 0;
+    background-color: bisque;
+    text-align: center;
+}
+
+.calendar table thead tr th{
+    padding: 0 0 0 0;
+    background-color: peru;
+    color: brown;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+.calendar table{
+    background-color: burlywood;
+    border-style: solid;
+    border-color: brown;
+    border-width: 10px;
+    text-align: center;
+    width: 90%;
+    font-size: 1.5em;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+.calendar .emptyDay{
+    border-style: solid;
+    width: 100;
+    height: 130px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.calendar td{
+    width: calc(100% / 7);
+}
+
+/*.calendar .emptyDay:hover{
+    transform: translate(-40%, -40%);
+    font-size: 0.8em;
+}*/
+
+.calendar .day{
+    padding-top: 15px;
+    vertical-align: top;
+    font-size: 0.7em;
+    border-style: solid;
+    width: 100;
+    height: 130px;
+}
+
+.calendar .currentDay{
+    color: brown;
+    border-style: solid;
+    border-color: black;
+    width: 100;
+    height: 130px;
+}
+
+.fleches{
+    padding: 0 20 0 20;
+    border: none;
+    background-color: unset;
+    color: unset;
+    font-size: 1.2em;
+    cursor: pointer;
+}

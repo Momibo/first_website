@@ -1,0 +1,33 @@
+.sheets{
+    margin: 10px;
+    padding: 15px;
+    border: 10px;
+    border-color: burlywood;
+    border-style:solid;
+    border-top-right-radius: 20px;
+    /*display: inline-block;*/
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sheets ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.ajouter_voc_btn{
+    width: 60;
+    height: 60;
+    border-width: 10;
+    border-radius: 50%;
+    border-color: burlywood;
+    font-size: 35;
+    color: burlywood;
+    cursor: pointer;
+    margin-left: 15;
+}
+
+.ajouter_voc_input{
+    margin-top: 30px;
+    display: flex;
+}

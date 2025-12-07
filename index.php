@@ -1,0 +1,41 @@
+<?php
+include("navbar.html");
+?>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/first_website/style/style.css">
+</head>
+
+<body>
+    <main>
+        <h2>Mon tout premier site</h1>
+            <p>
+                Voici mon tout premier site. Je ne connais pas encore où est ce que je me dirige
+                avec mais il me sera utile surtout pour m'entrainer à la maitrise de html, CSS, php et javascript.
+            </p>
+            <p>
+                Comme dit précedement, m'améliorer en code est mon but mais pas seulement, pour
+                connaitre mes autres objectifs je vous renvoie vers ma page où je developpe un peu
+                plus mes objectifs personnels en cliquant sur "objectifs" dans la barre de navigation
+                ou en cliquant ici : <a href="objectifs.php">Objectifs</a>.
+            </p>
+            <p>alt + shift + f -> bien indenter le fichier</p>
+            <p>ctrl + f5 -> vider le cache du navigateur pour afficher les changements css</p>
+            <h3>Conseils perso (pour se motiver) :</h3>
+            <p>Baby steps -- ne pas se dire "je vais écire un livre" mais plutot "je vais ecrire un paragraphe" (2 minutes rules)</p>
+            <p>
+                Just start getting ready -- si je n'arrive pas à commencer à faire une tache, d'abord se préparer a faire la tache
+                (si je n'ai pas envie d'étudier, j'ouvre d'abord de quoi étudier)
+            </p>
+            <p>Reward yourself -- récompenses (pas fan)</p>
+            <p>Focus on having fun -- fun > pressure</p>
+            <p>Align your identity with the actions -- <del>je dois faire du sport</del> je suis quelqu'un qui fait du sport</p>
+    </main>
+</body>
+
+</html>

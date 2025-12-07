@@ -1,0 +1,95 @@
+header{
+    background-color: brown;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    background-color: brown;
+    color: bisque;
+    display: block;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(208, 175, 135);
+    color: brown;
+}
+
+.navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    display: none;
+}
+
+.navbar ul li ul li{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.navbar ul li ul li a{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    /*background-color: rgb(186, 56, 56);*/
+}
+
+.navbar ul li ul li ul{
+    left: 199px;
+    top: -1px;
+}
+
+.navbar ul li:hover > ul, .navbar ul li:focus-within > ul{
+    display: initial;
+}
+
+/*.navbar {
+/*    position:fixed; /* position fixe */
+/*    top: 0; /* position en haut de la page */
+/*    width:100%; /* largeur maximale */
+/*}
+  
+/*.navbar ul {
+/*    list-style-type: none; /* enlever les puces */
+/*    display: flex; /* afficher les liens côte à côte */
+/*}
+  
+/*.navbar ul li {
+/*    /*position: relative;*/
+/*    flex-grow: 1; /* faire grandir chaque élément pour remplir la navbar */
+ /*   text-align: center; /* centrer le texte */
+ /*   display: block; /* afficher les liens en bloc pour prendre toute la place disponible */
+/*
+/*}
+  
+/*.navbar a {
+ /*   background-color: burlywood;
+ /*   color: brown; /* couleur du texte */
+ /*   padding: 15px; /* espacement autour des liens */
+/*}
+
+/*.navbar a:hover{
+ /*   background-color: black;
+/*}
+
+/*.navbar ul li ul{
+ /*   position: absolute;
+ /*   left:0;
+ /*   width: 200px;
+/*}
